@@ -1,0 +1,10 @@
+# Dipendenze gestite (IDF Component Manager). Versioni indicative: verificare su
+# components.espressif.com al momento della build.
+dependencies:
+  idf: ">=5.3"
+  lvgl/lvgl: "^9.2.0"
+  espressif/esp_lvgl_port: "^2.4.0"
+  # --- da abilitare via via che si implementano i moduli ---
+  # espressif/esp-sr: "^1.9.0"            # wake-word "Decodius" (WakeNet) + AFE
+  # espressif/esp_codec_dev: "^1.3.0"     # codec audio I2S (ES8311)
+  # espressif/esp_wifi_remote: "^0.5.0"   # Wi-Fi via ESP32-C6 (esp-hosted)
